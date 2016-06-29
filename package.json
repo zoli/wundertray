@@ -1,0 +1,6 @@
+{
+	"name": "wundertray",
+	"version": "0",
+	"description": "wunderlist tray icon for i3 wm",
+	"main": "main.js"
+}

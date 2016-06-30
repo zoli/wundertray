@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=
+Type=Application
+Name=WunderTray
+GenericName=Wunderlist tray
+Exec=/usr/lib/wundertray/wundertray
+Categories=Application;Productivity;

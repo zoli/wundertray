@@ -1,13 +1,14 @@
 const {app, Menu, Tray} = require('electron')
 const exec = require('child_process').exec
 const WunderlistSDK = require('wunderlist');
+const config = require(__dirname + '/config.js')
 
 // start Wunderlist
 exec('chromium --app-id=ojcflmmmcfpacggndoaaflkmcoblhnbh')
 
 var wl = new WunderlistSDK({
-	'accessToken': 'YourToken',
-	'clientID': 'YourID'
+	'accessToken': config.accessToken,
+	'clientID': config.clientID
 });
 
 var tray = null

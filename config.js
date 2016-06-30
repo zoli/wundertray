@@ -1,4 +1,4 @@
-var config = {
-	accessToken: 'YourAccessToken',
+module.exports = {
+	accessToken: 'YourToken',
 	clientID: 'YourClientID'
 }
